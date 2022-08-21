@@ -1,6 +1,6 @@
 Yii2 FontAwesome Free Change Log
 ===================
 
-v6.1.2 Under development
+v1.0.0 Under development
 ------------------------
-- Version of package is the same as FontAwesome library used
+- First public release. FontAwesome bundle version is 6.1.2 Free.

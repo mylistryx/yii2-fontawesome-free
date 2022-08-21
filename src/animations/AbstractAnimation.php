@@ -12,7 +12,7 @@ abstract class AbstractAnimation
 {
     public readonly string $name;
 
-    protected array $utilities;
+    protected array $utilities = [];
 
     /**
      * @param ...$config
