@@ -1,0 +1,43 @@
+{
+  "name": "mylistryx/yii2-fontawesome-free",
+  "description": "Yii2 FontAwesome Free",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "Sergey Zhukovskiy",
+      "email": "mylistryx@gmail.com",
+      "homepage": "https://net23.ru"
+    }
+  ],
+  "keywords": [
+    "yii2",
+    "fontawesome",
+    "asset",
+    "bundle"
+  ],
+  "version": "6.1.2",
+  "readme": "README.md",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "yii\\fontawesome\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "bower-asset/font-awesome": "6.1.2",
+    "yiisoft/yii2": "~2.0.46"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
+}
