@@ -1,7 +1,7 @@
 {
   "name": "mylistryx/yii2-fontawesome-free",
   "description": "Yii2 FontAwesome Free asset bundle",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "license": "MIT",
   "type": "yii2-extension",
   "authors": [
