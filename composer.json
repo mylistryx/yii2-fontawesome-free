@@ -1,7 +1,7 @@
 {
   "name": "mylistryx/yii2-fontawesome-free",
   "description": "Yii2 FontAwesome Free asset bundle",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "MIT",
   "type": "yii2-extension",
   "authors": [
@@ -18,7 +18,7 @@
     "bundle",
     "free"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "readme": "README.md",
   "repositories": [
     {
@@ -34,7 +34,7 @@
   "require": {
     "php": ">=8.1",
     "bower-asset/font-awesome": "dev-master",
-    "yiisoft/yii2": "~2.0.0"
+    "yiisoft/yii2": "~2.0.49"
   },
   "config": {
     "allow-plugins": {
