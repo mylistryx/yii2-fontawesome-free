@@ -10,4 +10,6 @@ Either run:
 
 `composer require mylistryx/yii2-fontawesome-free`
 
+`<?= FAR::icon('name') ?>`
+
 ## ... TBD
