@@ -17,6 +17,7 @@ class Spin extends AbstractAnimation
     public function pulse(): static
     {
         $this->utilities['pulse'] = true;
+
         return $this;
     }
 
@@ -27,6 +28,7 @@ class Spin extends AbstractAnimation
     public function reverse(): static
     {
         $this->utilities['reverse'] = 1;
+
         return $this;
     }
 }

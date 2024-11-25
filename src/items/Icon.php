@@ -25,12 +25,26 @@ class Icon
     }
 
     /**
+     * @param string $class
+     * @param bool $condition
+     * @param string|null $throw
+     * @return $this
+     */
+    public function addCssClass(string $class, bool $condition = true, ?string $throw = null): static
+    {
+        Html::addCssClass($this->options, $class);
+
+        return $this;
+    }
+
+    /**
      * @return string
      */
     public function __toString()
     {
         $options = $this->options;
         $tag = ArrayHelper::remove($options, 'tag', 'i');
+
         return Html::tag($tag, null, $options);
     }
 
@@ -51,6 +65,18 @@ class Icon
     }
 
     /**
+     * @param array|string $style
+     * @param bool $overwrite
+     * @return $this
+     */
+    public function addCssStyle(array|string $style, bool $overwrite = true): static
+    {
+        Html::addCssStyle($this->options, $style, $overwrite);
+
+        return $this;
+    }
+
+    /**
      * @param AbstractTransformation $transformation
      * @return $this
      */
@@ -65,31 +91,6 @@ class Icon
     public function li(): static
     {
         return $this->addCssClass(FontAwesome::$basePrefix . '-li');
-    }
-
-    /**
-     * @param string $class
-     * @param bool $condition
-     * @param string|null $throw
-     * @return $this
-     */
-    public function addCssClass(string $class, bool $condition = true, ?string $throw = null): static
-    {
-        Html::addCssClass($this->options, $class);
-
-        return $this;
-    }
-
-    /**
-     * @param array|string $style
-     * @param bool $overwrite
-     * @return $this
-     */
-    public function addCssStyle(array|string $style, bool $overwrite = true): static
-    {
-        Html::addCssStyle($this->options, $style, $overwrite);
-
-        return $this;
     }
 
     /**

@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace yii\fontawesome\animations;
@@ -18,6 +19,7 @@ class Beat extends AbstractAnimation
     public function scale(float $scale): static
     {
         $this->utilities['scale'] = $scale;
+
         return $this;
     }
 }

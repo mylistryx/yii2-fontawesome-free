@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace yii\fontawesome\animations;
@@ -18,6 +19,7 @@ class BeatFade extends AbstractAnimation
     public function scale(float $scale): static
     {
         $this->utilities['scale'] = $scale;
+
         return $this;
     }
 
@@ -28,6 +30,7 @@ class BeatFade extends AbstractAnimation
     public function opacity(float $opacity): static
     {
         $this->utilities['opacity'] = $opacity;
+
         return $this;
     }
 }

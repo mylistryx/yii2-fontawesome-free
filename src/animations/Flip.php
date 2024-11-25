@@ -17,6 +17,7 @@ class Flip extends AbstractAnimation
     public function flipX(float $flipX): static
     {
         $this->utilities['flip-x'] = $flipX;
+
         return $this;
     }
 
@@ -27,6 +28,7 @@ class Flip extends AbstractAnimation
     public function flipY(float $flipY): static
     {
         $this->utilities['flip-y'] = $flipY;
+
         return $this;
     }
 
@@ -37,6 +39,7 @@ class Flip extends AbstractAnimation
     public function flipZ(float $flipZ): static
     {
         $this->utilities['flip-z'] = $flipZ;
+
         return $this;
     }
 
@@ -47,6 +50,7 @@ class Flip extends AbstractAnimation
     public function flipAngle(float $flipAngle): static
     {
         $this->utilities['flip-angle'] = $flipAngle;
+
         return $this;
     }
 }

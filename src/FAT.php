@@ -7,7 +7,6 @@ namespace yii\fontawesome;
  */
 class FAT extends FontAwesome
 {
-    protected static array $allowedMethods = [];
-
     public static string $cssPrefix = 'fa-thin';
+    protected static array $allowedMethods = [];
 }

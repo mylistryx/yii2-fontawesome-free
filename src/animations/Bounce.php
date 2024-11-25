@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace yii\fontawesome\animations;
@@ -18,6 +19,7 @@ class Bounce extends AbstractAnimation
     public function rebound(int $rebound): static
     {
         $this->utilities['rebound'] = $rebound;
+
         return $this;
     }
 
@@ -28,6 +30,7 @@ class Bounce extends AbstractAnimation
     public function height(float $height): static
     {
         $this->utilities['height'] = $height;
+
         return $this;
     }
 
@@ -38,6 +41,7 @@ class Bounce extends AbstractAnimation
     public function startScaleX(bool $startScaleX): static
     {
         $this->utilities['start-scale-x'] = (int)$startScaleX;
+
         return $this;
     }
 
@@ -48,6 +52,7 @@ class Bounce extends AbstractAnimation
     public function startScaleY(bool $startScaleY): static
     {
         $this->utilities['start-scale-y'] = (int)$startScaleY;
+
         return $this;
     }
 
@@ -58,6 +63,7 @@ class Bounce extends AbstractAnimation
     public function jumpScaleX(bool $jumpScaleX): static
     {
         $this->utilities['jump-scale-x'] = (int)$jumpScaleX;
+
         return $this;
     }
 
@@ -68,6 +74,7 @@ class Bounce extends AbstractAnimation
     public function jumpScaleY(bool $jumpScaleY): static
     {
         $this->utilities['jump-scale-y'] = (int)$jumpScaleY;
+
         return $this;
     }
 
@@ -78,6 +85,7 @@ class Bounce extends AbstractAnimation
     public function landScaleX(bool $landScaleX): static
     {
         $this->utilities['land-scale-x'] = (int)$landScaleX;
+
         return $this;
     }
 
@@ -88,6 +96,7 @@ class Bounce extends AbstractAnimation
     public function landScaleY(bool $landScaleY): static
     {
         $this->utilities['land-scale-y'] = (int)$landScaleY;
+
         return $this;
     }
 

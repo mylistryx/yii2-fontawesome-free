@@ -1,4 +1,5 @@
 <?php
+
 require dirname(__DIR__) . '/vendor/autoload.php';
 
 use yii\BaseYii;
@@ -65,8 +66,6 @@ class Parser
     }
 }
 
-class Yii extends BaseYii
-{
-}
+class Yii extends BaseYii {}
 
 $parser = new Parser();

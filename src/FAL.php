@@ -7,7 +7,6 @@ namespace yii\fontawesome;
  */
 class FAL extends FontAwesome
 {
-    protected static array $allowedMethods = [];
-
     public static string $cssPrefix = 'fa-light';
+    protected static array $allowedMethods = [];
 }

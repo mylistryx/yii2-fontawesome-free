@@ -9,9 +9,7 @@ use yii\fontawesome\FAS;
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 
-class Yii extends BaseYii
-{
-}
+class Yii extends BaseYii {}
 
 $beat = new Beat(scale: 4);
 $fade = new Fade(scope: 0.6);

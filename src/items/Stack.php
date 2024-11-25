@@ -62,7 +62,6 @@ class Stack
         return Html::tag($tag, $content, $options);
     }
 
-
     public function icon($icon, array $options = []): static
     {
         if (is_string($icon)) {
@@ -89,7 +88,6 @@ class Stack
 
         return $this;
     }
-
 
     public function on($icon, $options = []): static
     {

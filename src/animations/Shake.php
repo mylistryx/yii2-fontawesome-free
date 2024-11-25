@@ -8,6 +8,4 @@ namespace yii\fontawesome\animations;
  * Shake animation
  * @see https://fontawesome.com/docs/web/style/animate#shake
  */
-class Shake extends AbstractAnimation
-{
-}
+class Shake extends AbstractAnimation {}

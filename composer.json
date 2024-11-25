@@ -18,7 +18,7 @@
     "bundle",
     "free"
   ],
-  "version": "1.0.1",
+  "version": "2.0.0",
   "readme": "README.md",
   "repositories": [
     {
@@ -33,7 +33,7 @@
   },
   "require": {
     "php": ">=8.1",
-    "bower-asset/font-awesome": "dev-master",
+    "bower-asset/font-awesome": "6.7.0",
     "yiisoft/yii2": "~2.0.49"
   },
   "config": {
