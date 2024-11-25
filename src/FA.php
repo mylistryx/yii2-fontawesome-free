@@ -4,6 +4,9 @@ namespace yii\fontawesome;
 
 /**
  * FontAwesome Solid helper
+ * Use FA::icon('icon-name')
+ * Icon name must be without fa- prefix
+ * List
  */
 class FA extends FontAwesome
 {

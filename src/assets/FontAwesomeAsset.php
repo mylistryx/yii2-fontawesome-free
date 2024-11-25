@@ -12,9 +12,14 @@ class FontAwesomeAsset extends AssetBundle
         'css/all.css',
     ];
 
+    public $js = [
+        'js/all.js',
+    ];
+
     public $publishOptions = [
         'only' => [
             'css/*',
+            'js/*',
             'webfonts/*',
         ],
     ];
