@@ -5,7 +5,7 @@ namespace yii\fontawesome;
 /**
  * FontAwesome Solid helper
  */
-class FAS extends FontAwesome
+class FA extends FontAwesome
 {
     public static string $cssPrefix = 'fa-solid';
     protected static array $allowedMethods = [];
