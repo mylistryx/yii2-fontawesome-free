@@ -21,7 +21,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 
 Either run:
 
-`composer require mylistryx/yii2-fontawesome-free`  or add `"mylistryx/yii2-font-awesome-free": "~6.0.0"` into your `composer.json` file.
+`composer require mylistryx/yii2-fontawesome-free`  or add `"mylistryx/yii2-fontawesome-free": "~6.0.0"` into your `composer.json` file.
 
 Then register assets in your view file:
 
