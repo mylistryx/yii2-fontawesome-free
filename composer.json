@@ -18,23 +18,16 @@
     "bundle",
     "free"
   ],
-  "version": "2.0.0",
+  "version": "6.7.1",
   "readme": "README.md",
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://asset-packagist.org"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "yii\\fontawesome\\": "src/"
     }
   },
   "require": {
-    "php": ">=8.1",
-    "bower-asset/font-awesome": "6.7.0",
-    "yiisoft/yii2": "~2.0.49"
+    "php": ">=8.2",
+    "yiisoft/yii2": "~2.0.50"
   },
   "config": {
     "allow-plugins": {
