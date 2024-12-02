@@ -3,6 +3,6 @@
 namespace yii\fontawesome;
 
 /**
- * @deprecated Use FA instead
+ * Alias for FA helper
  */
 class FAS extends FA {}

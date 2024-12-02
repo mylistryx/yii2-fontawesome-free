@@ -3,6 +3,6 @@
 namespace yii\fontawesome;
 
 /**
- * @deprecated Use FA instead
+ * Thin icons are not available in Free version!
  */
 class FAT extends FA {}

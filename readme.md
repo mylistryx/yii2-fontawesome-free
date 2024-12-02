@@ -1,4 +1,6 @@
-# FontAwesome asset bundle for Yii 2.0 Framework #
+<h2 style="text-align: center">
+FontAwesome Free asset bundle for Yii 2.0 Framework
+</h2>
 
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
@@ -13,11 +15,13 @@
 
 ___
 
+[Changelog](changelog.md) of package
+
 The preferred way to install this extension is through [composer ](http://getcomposer.org/download/)
 
 Either run:
 
-`composer require mylistryx/yii2-fontawesome-free`  or add `"mylistryx/yii2-font-awesome": "~6.0.0"` into your `composer.json` file. 
+`composer require mylistryx/yii2-fontawesome-free`  or add `"mylistryx/yii2-font-awesome-free": "~6.0.0"` into your `composer.json` file.
 
 Then register assets in your view file:
 
@@ -31,18 +35,33 @@ and use:
 
 `<?= FA::icon('gear') ?>`
 
+`<?= FAS::icon('pencil) ?>` is same as `<?= FA::icon('pencil') ?>`
+
+`<?= FAB::icon('facebook') ?>` - FAB helper for Brands collection
+
 ... and so on. Full list of free icons see on fontawesome home page:  https://fontawesome.com/icons
 
-Some animations are represented:
+### <span style="color:#A32">Attention!</span>
 
-`<?= FAS::i('gear')->animate((new Beat(3.0))) ?>`
+---
 
-`<?= FAS::i('gear')->animate((new Shake())) ?>`
+Other helpers exists only for backward capability with PRO version! Some Solid icons excluded from Free version!
 
-`<?= FAS::i('gear')->animate((new Spin())) ?>`
+### Animation
 
-`<?= FAS::i('gear')->animate((new Flip())) ?>`
+---
 
-`<?= FAS::i('gear')->animate((new Bounce())) ?>`
+Animations are represented:
+
+`<?= FA::i('gear')->animate((new Beat(3.0))) ?>`
+
+`<?= FA::i('gear')->animate((new Shake())) ?>`
+
+`<?= FA::i('gear')->animate((new Spin())) ?>`
+
+`<?= FA::i('gear')->animate((new Flip())) ?>`
+
+`<?= FA::i('gear')->animate((new Bounce())) ?>`
 
 see source files for more.
+

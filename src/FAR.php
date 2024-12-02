@@ -3,6 +3,6 @@
 namespace yii\fontawesome;
 
 /**
- * @deprecated Use FA instead
+ * Regular icons are not available in Free version!
  */
 class FAR extends FA {}

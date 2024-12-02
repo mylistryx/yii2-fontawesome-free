@@ -17,7 +17,6 @@ abstract class FontAwesome
      * @var string
      */
     public static string $basePrefix = 'fa';
-    protected static array $allowedMethods = [];
 
     /**
      * @param array $options

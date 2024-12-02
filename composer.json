@@ -19,12 +19,18 @@
     "free"
   ],
   "version": "6.7.1",
-  "readme": "README.md",
+  "readme": "readme.md",
   "autoload": {
     "psr-4": {
       "yii\\fontawesome\\": "src/"
     }
   },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
   "require": {
     "php": ">=8.2",
     "yiisoft/yii2": "~2.0.50"
