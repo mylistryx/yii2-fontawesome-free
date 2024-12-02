@@ -15,9 +15,9 @@ FontAwesome Free asset bundle for Yii 2.0 Framework
 
 ___
 
-[Changelog](changelog.md) of package
+[Changelog](CHANGELOG.md) of package
 
-The preferred way to install this extension is through [composer ](http://getcomposer.org/download/)
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/)
 
 Either run:
 

@@ -19,7 +19,7 @@
     "free"
   ],
   "version": "6.7.1",
-  "readme": "readme.md",
+  "readme": "README.md",
   "autoload": {
     "psr-4": {
       "yii\\fontawesome\\": "src/"
