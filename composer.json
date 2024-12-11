@@ -18,7 +18,7 @@
     "bundle",
     "free"
   ],
-  "version": "6.7.1",
+  "version": "6.7.1.1",
   "readme": "README.md",
   "autoload": {
     "psr-4": {

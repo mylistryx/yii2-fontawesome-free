@@ -11,16 +11,4 @@ class FontAwesomeAsset extends AssetBundle
     public $css = [
         'css/all.min.css',
     ];
-
-    public $js = [
-        'js/all.min.js',
-    ];
-
-    public $publishOptions = [
-        'only' => [
-            'css/*',
-            'js/*',
-            'webfonts/*',
-        ],
-    ];
 }
